@@ -147,9 +147,11 @@ body{
 /* about us section starts here */
 .about_us{
     justify-content: center;
+    align-items: center;
     padding: 1rem 1rem;
-    min-height: 70vh;
+    min-height: 100vh;
     gap: 0.7rem;
+    /* border: 1px solid; */
 }
 .about_left{
     flex: 0.5;
@@ -179,10 +181,12 @@ body{
 }
 .about_right{
     flex: 0.5;
+    display: flex;
+    justify-content: center;
 }
 .about_right img{
-    width: 100%;
-    
+    width: 70%;
+    height: 80vh;
 }
 
 /* about us section ends here */
@@ -359,12 +363,13 @@ body{
     align-items: center;
     min-height: 60vh;
     margin: 3rem 1.5rem;
+    
 }
 .appoinment_left{
     width: 50%;
 }
 .appoinment_left img{
-    width: 100%;
+    width: 80%;
 
 }
 .appoinment_right{
