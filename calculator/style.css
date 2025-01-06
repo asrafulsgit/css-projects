@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page_body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.177);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form div input{
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    margin: 2px 0;
+}
+
+.display input{
+    width: 211px;
+    outline: none;
+    text-align: right;
+}
